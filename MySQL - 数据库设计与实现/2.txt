@@ -1,5 +1,5 @@
 请给出ER图文件存放的URL:
-https://raw.githubusercontent.com/reKelin/Database-experiment-based-on-MySQL/main/MySQL%20-%20%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0/ersolution.png?token=GHSAT0AAAAAABSW3O5SHLUR4W2JFHDO52BMYSOUDFQ
+https://imgtu.com/i/qWqweP
 
 以下给出关系模式：
 movie(movie_ID, title, type, runtime, release_date, director, starring), primary key:(movie_ID);
