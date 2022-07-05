@@ -20,7 +20,7 @@ from (
             and pro_pif_id = f_id
             group by pro_purchase_time
         ) t1
-        where amount >= 1000000
+        where amount > 1000000
     ) t2
 ) t3
 where t3.cnt >= 3;
