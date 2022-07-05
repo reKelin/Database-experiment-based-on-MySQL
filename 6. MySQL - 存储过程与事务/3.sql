@@ -18,13 +18,13 @@ BEGIN
     declare s_b, rcv_amount numeric(10, 2) default amount;
     select
         b_c_id, b_balance, b_type
-        into 
+    into 
         s_id, s_b, s_type
     from bank_card
     where b_number = source_card_id;
     select
         b_c_id, b_type
-        into
+    into
         r_id, r_type
     from bank_card
     where b_number = dest_card_id;
