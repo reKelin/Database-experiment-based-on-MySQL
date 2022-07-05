@@ -5,12 +5,12 @@ use finance1;
 
 delimiter $$
 create procedure sp_transfer(
-	                 IN applicant_id int,      
-                     IN source_card_id char(30),
-					 IN receiver_id int, 
-                     IN dest_card_id char(30),
-					 IN	amount numeric(10,2),
-					 OUT return_code int)
+    IN applicant_id int,      
+    IN source_card_id char(30),
+    IN receiver_id int, 
+    IN dest_card_id char(30),
+    IN amount numeric(10,2),
+    OUT return_code int)
 pro:
 BEGIN
 	declare s_id, r_id int;
