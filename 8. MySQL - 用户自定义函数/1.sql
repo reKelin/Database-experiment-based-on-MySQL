@@ -16,9 +16,9 @@ begin
         select
             sum(b_balance)
         from bank_card
-        group by b_c_id, b_type
-        having b_type = "储蓄卡"
-        and b_c_id = client_id
+        where b_type = "储蓄卡"
+        group by b_c_id
+        having b_c_id = client_id
     );
 end$$
 delimiter ;
